@@ -1,0 +1,98 @@
+.headcont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+body{
+    overflow-y: auto !important;
+    font-size: large !important;
+    font-weight: 600 !important;
+}
+.imgcont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img{
+    border-radius: 10%;
+    box-shadow: none;
+
+}
+.img:hover{
+    box-shadow: 0px 15px 10px -15px #0F393A;
+    border-radius: 10%;
+
+
+}
+img{
+    box-shadow: none;
+    border-radius: 10%;
+
+  
+}
+img:hover{
+    box-shadow: 0px 15px 10px -15px #0F393A;
+    border-radius: 10%;
+    
+
+}
+   
+.img1{
+    background-image: url('painters.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px;
+     width:560px; 
+    text-align: center;
+    font-size:70px ;
+    color: yellow;
+    font-weight: 700;
+    
+
+}
+.img2{
+    background-image: url('electrition.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px;
+    width:560px;  
+    text-align: center;
+    font-size:70px ;
+    font-weight: 700;
+    color: brown;
+}
+.img3{
+    background-image: url('cook.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px;
+    width:560px; 
+    text-align: center;
+    font-size:70px ;
+    font-weight: 700;
+    color: orange;
+}.img4{
+    background-image: url('homecc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px;
+     width:560px; 
+    text-align: center;
+    font-size:70px ;
+    font-weight: 700;
+    color: aqua;
+}
+
+.content{
+    margin-top: 10px;
+}
+.para{
+  margin-top: 30px;
+}
+.text{
+   align-content: baseline;
+}
+.img:hover{
+    font-size: 75px;
+    transform-style: preserve-3d;
+   backdrop-filter: blur(15px);
+    
+}   
